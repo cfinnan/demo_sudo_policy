@@ -73,6 +73,8 @@ Defaults ignore_iolog_errors
 #Defaults log_servers = 192.168.38.32:30343
 Defaults log_output
 Defaults log_input
+Defaults iolog_dir = "/var/opt/quest/qpm4u/iolog"
+Defaults iolog_file = "%{user}/%{runas_user}/%{command}_%Y%m%d_%H%M_XXXXXX"
 ##
 ## Runas alias specification
 ##
