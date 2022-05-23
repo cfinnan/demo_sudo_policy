@@ -94,7 +94,7 @@ root ALL=(ALL) ALL
 %sudo	ALL=(ALL) ALL
 # Allow cfinnan to shutdown the server
 cfinnan ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot, /sbin/shutdown
-acarter ALL=(ALL) NOPASSWD: /bin/vim /opt/syslog-ng/etc/syslog-ng.conf
+acarter ALL=(ALL) NOPASSWD: sudoedit /opt/syslog-ng/etc/syslog-ng.conf
 ## Uncomment to allow any user to run sudo if they know the password
 ## of the user they are running the command as (root by default).
 # Defaults targetpw  # Ask for the password of the target user
