@@ -65,7 +65,7 @@ Defaults mail_badpass
 ## Uncomment to enable logging of a command's output, except for
 ## sudoreplay and reboot.  Use sudoreplay to play back logged sessions.
 # Defaults log_output
- Defaults!/usr/bin/sudoreplay !log_output
+# Defaults!/usr/bin/sudoreplay !log_output
 # Defaults!/usr/local/bin/sudoreplay !log_output
 # Defaults!REBOOT !log_output
 # Defaults for sudo iolog to SPS...
